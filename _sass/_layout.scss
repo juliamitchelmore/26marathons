@@ -37,7 +37,7 @@
   font-family: $highlight-font-family;
   font-weight: bold;
   line-height: 1.1;
-  display: inline-block;
+  display: inline;
   vertical-align: middle;
 
   @include media-query($on-palm) {
@@ -74,9 +74,11 @@ $btn-border-width: 3px;
   width: 250px;
   margin: 0.5em;
 
-  &:hover {
-    color: white;
-    border: $btn-border-width solid white;
+  @media (min-width: $on-palm) {
+    &:hover {
+      color: white;
+      border: $btn-border-width solid white;
+    }
   }
 
   @include media-query($on-palm) {
@@ -89,8 +91,10 @@ $btn-border-width: 3px;
   background: $trekstock;
   border: $btn-border-width solid $trekstock;
 
-  &:hover {
-    background: $trekstock;
+  @media (min-width: $on-palm) {
+    &:hover {
+      background: $trekstock;
+    }
   }
 
   @include media-query($on-palm) {
@@ -102,8 +106,10 @@ $btn-border-width: 3px;
   background: $heartfoundation;
   border: $btn-border-width solid $heartfoundation;
 
-  &:hover {
-    background: $heartfoundation;
+  @media (min-width: $on-palm) {
+    &:hover {
+      background: $heartfoundation;
+    }
   }
 
   @include media-query($on-palm) {
