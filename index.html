@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+{% assign thisDate = site.time | date: '%s'  %}
+{% assign endDate = '2019-04-21' | date: '%s'  %}
+{% assign dateDiff = endDate | minus: thisDate | divided_by: 86400 %}
+
+<div class="home">
+
+  <p class="text-description">Julia is running 26.2 marathons by her 26.2th birthday</p>
+
+  <div class="countdown">
+    <header class="countdown-title">26.2 Marathons</header>
+    <span class="countdown-subtitle">to run</span>
+  </div>
+
+  <div class="countdown">
+    <header class="countdown-title">{{dateDiff}} Days</header>
+    <span class="countdown-subtitle">until 26.2th birthday</span>
+  </div>
+
+  <div class="donate-buttons">
+    <a class="btn btn-trekstock" href="http://uk.virginmoneygiving.com/26marathons">
+      <span class="donate-text">Donate to</span>
+      <span class="donate-charity">Trekstock</span>
+      <span class="donate-country">UK</span>
+    </a>
+
+    <a class="btn btn-heartfoundation" href="https://give.everydayhero.com/au/26marathons">
+      <span class="donate-text">Donate to the</span>
+      <span class="donate-charity">Heart Foundation</span>
+      <span class="donate-country">AUS</span>
+    </a>
+  </div>
+
+  <p class="text-description">Next marathon: <strong>Blackmores Sydney Marathon</strong> on 18.09.2016</p>
+
+</div>
