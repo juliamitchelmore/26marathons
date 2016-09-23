@@ -2,13 +2,16 @@
 layout: default
 ---
 
-<div class="home">
+<!-- MASTHEAD -->
+
+<div class="masthead">
 
   <p class="text-description">Julia is running 26.2 marathons by her 26.2th birthday</p>
+  <p class="text-sub">(because she's crazy, loves to run & wants to make a difference in people's lives)</p>
 
   <div class="countdown">
     <header class="countdown-title">25.2 Marathons</header>
-    <span class="countdown-subtitle">to run</span>
+    <span class="countdown-subtitle">still to run</span>
   </div>
 
   <div class="countdown">
@@ -32,6 +35,11 @@ layout: default
 
   <p class="text-description">Next marathon: <strong>Dublin Marathon</strong> on 30.10.2016</p>
 
+  <a class="reports" href="#marathons">
+    <span class="reports-text">Completed marathons</span>
+    <span class="reports-arrow">></span>
+  </a>
+
 </div>
 
 <script>
@@ -40,3 +48,22 @@ layout: default
   var dateDiff = Math.round((endDate.getTime() - thisDate.getTime())/(86400000));
   document.querySelector(".countdown-dateDiff").textContent = dateDiff;
 </script>
+
+<!-- POST LIST -->
+
+<div id="marathons">
+{% for post in site.posts reversed %}
+  <a class="postlist" href={{ post.url | remove_first:'.html' | prepend: site.github.url }} style="background-color: {{ post.color }}">
+    <span class="postlist-number">#{{ post.number }}</span>
+    <div class="postlist-section">
+      <span class="postlist-title">{{ post.title }}</span>
+      <span class="postlist-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+    </div>
+    <div class="postlist-section">
+      <p class="postlist-details">Official Time: <span class="postlist-time">{{ post.time }}</span></p>
+      <p class="postlist-details">In three words: <span class="postlist-mood">{{ post.mood }}</span></p>
+    </div>
+    <span class="postlist-arrow">></span>
+  </a>
+{% endfor %}
+</div>

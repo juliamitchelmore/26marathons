@@ -20,4 +20,4 @@ github_username:  juliamitchelmore
 markdown: kramdown
 
 # Outputting
-permalink: /:title.html
+permalink: /:title

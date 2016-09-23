@@ -1,0 +1,22 @@
+/* header */
+
+.header {
+  width: 100%;
+  background: #898B91;
+  display: block;
+  text-align: center;
+  padding: 1em;
+
+  a, a:hover, a:visited{
+    color: white;
+    padding: 1em;
+  }
+
+  a:hover span {
+    color: #680D0E;
+  }
+
+  span {
+    font-weight: 600;
+  }
+}

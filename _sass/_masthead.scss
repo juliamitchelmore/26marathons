@@ -1,8 +1,8 @@
-/* home */
-.home {
+/* masthead */
+.masthead {
   width: 100%;
   padding: 0 2em;
-  background: url('../images/26marathons_background.jpg') no-repeat;
+  background: url('../images/26marathons_background.jpg') no-repeat #898B91;
   background-size: cover;
   background-position: 0 100%;
   min-height: 100vh;
@@ -17,15 +17,22 @@
   }
 }
 
-/* masthead */
 .text-description {
   color: white;
   font-size: 1.25em;
-  font-weight: 300;
+  font-weight: 400;
+  margin-bottom: 0;
 
   @include media-query($on-palm) {
     font-size: 1em;
   }
+}
+
+.text-sub {
+  font-size: 0.875em;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 2em;
 }
 
 .countdown-title {
@@ -129,5 +136,22 @@ $btn-border-width: 3px;
 
   &-country {
     font-size: 0.625em;
+  }
+}
+
+.reports {
+  color: white;
+  margin-top: 2em;
+
+  &-text {
+    font-size: 0.825em;
+  }
+
+  &-arrow {
+    font-family: $highlight-font-family;
+    transform: rotate(90deg);
+    display: block;
+    font-size: 2em;
+    line-height: 0.5;
   }
 }

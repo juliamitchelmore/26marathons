@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <header class="header" style="background-color: {{ page.color }}">
+      <a href={{ "/" | prepend: site.github.url }}>Julia runs <span>26.2 Marathons</span></a>
+    </header>
+
+    <article class="post">
+
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-date">{{ page.date | date: "%d.%m.%Y" }}</p>
+        <p>Official Time: <span class="post-time">{{ page.time }}</span></p>
+      </header>
+      
+      <div class="post-content">{{content}}</div>
+
+      <div class="post-pagination">
+        {% if page.previous.url %}
+          <a class="post-prev" href="{{page.previous.url}}">&laquo; #{{page.previous.number}}: {{page.previous.title}}</a>
+        {% endif %}
+        {% if page.next.url %}
+          <a class="post-next" href="{{page.next.url}}">#{{page.next.number}}: {{page.next.title}} &raquo;</a>
+        {% endif %}
+      </div>
+
+    </article>
+
+    {% include foot.html %}
+  
+  </body>
+
+</html>
