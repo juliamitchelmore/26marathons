@@ -210,3 +210,14 @@ pre {
   transition: all 0.2s ease;
   display: inline-block;
 }
+
+
+/* 
+ * Utilities
+ */
+
+.hidden-palm {
+  @include media-query($on-palm) {
+    display: none;
+  }
+}

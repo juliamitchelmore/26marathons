@@ -3,6 +3,10 @@
 .post {
   padding: 1em 1.5em;
 
+  @include media-query($on-palm) {
+    padding: 1em;
+  }
+
   &-header {
     text-align: center;
   }
@@ -60,10 +64,18 @@
     /* for post images */
     .center-half {
       width: 50%;
+
+      @include media-query($on-palm) {
+        width: 75%;
+      }
     }
 
     .center-padded {
       width: 90%;
+
+      @include media-query($on-palm) {
+        width: 100%;
+      }
     }
   }
 }

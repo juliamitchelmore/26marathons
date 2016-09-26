@@ -9,6 +9,10 @@
   justify-content: space-between;
   align-items: center;
 
+  @include media-query($on-palm) {
+    padding: 1em;
+  }
+
   &:hover, &:visited {
     color: white;
   }
@@ -17,6 +21,10 @@
     font-size: 2em;
     font-family: $highlight-font-family;
     flex-basis: 10%;
+
+    @include media-query($on-palm) {
+      flex-basis: 15%;
+    }
   }
 
   &-arrow {
@@ -25,16 +33,28 @@
 
   &-section {
     flex-basis: 40%;
+
+    @include media-query($on-palm) {
+      flex-basis: 70%;
+    }
   }
 
   &-date {
     display: block;
     font-size: 1.125em;
+
+    @include media-query($on-palm) {
+      font-size: 1em;
+    }
   }
 
   &-title {
     font-weight: 700;
     font-size: 1.5em;
+
+    @include media-query($on-palm) {
+      font-size: 1.2em;
+    }
   }
 
   &-time, &-mood {
