@@ -1,157 +1,130 @@
-/* masthead */
 .masthead {
   width: 100%;
-  padding: 0 2em;
   background: url('../images/26marathons_background.jpg') no-repeat #898B91;
   background-size: cover;
   background-position: 0 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
-
-  @include media-query($on-palm) {
-    padding: 10px;
-  }
-}
-
-.text-description {
   color: white;
-  font-size: 1.25em;
-  font-weight: 400;
-  margin-bottom: 0;
-
-  @include media-query($on-palm) {
-    font-size: 1em;
-  }
-}
-
-.text-sub {
-  font-size: 0.875em;
-  color: white;
-  font-weight: 300;
-  margin-bottom: 2em;
-}
-
-.countdown-title {
-  font-size: 6em;
-  color: white;
-  font-family: $highlight-font-family;
-  font-weight: bold;
-  line-height: 1.1;
-  display: inline;
-  vertical-align: middle;
-
-  @include media-query($on-palm) {
-    font-size: 3em;
-    display: block;
-  }
-}
-
-.countdown-subtitle {
-  font-size: 1.5em;
-  margin-left: 0.5em;
-  display: inline-block;
-  color: white;
-  vertical-align: text-top;
-
-  @include media-query($on-palm) {
-    font-size: 0.875em;
-    margin-left: 0;
-  }
-}
-
-$btn-border-width: 3px;
-
-.donate-buttons {
-  margin: 2.5em 0;
-
-  @include media-query($on-palm) {
-    margin: 1em 0;
-  }
-}
-
-.btn-trekstock, .btn-heart-foundation {
-  color: white;
-  width: 250px;
-  margin: 0.5em;
-
-  @media (min-width: $on-palm) {
-    &:hover {
-      color: white;
-      border: $btn-border-width solid white;
-    }
-  }
-
-  @include media-query($on-palm) {
-    width: 300px;
-    margin: 0.5em 0;
-  }
-}
-
-.btn-trekstock {
-  background: $trekstock;
-  border: $btn-border-width solid $trekstock;
-
-  @media (min-width: $on-palm) {
-    &:hover {
-      background: $trekstock;
-    }
-  }
-
-  @include media-query($on-palm) {
-    background: rgba(37,227,222, 0.2);
-  }
-}
-
-.btn-heart-foundation {
-  background: $heart-foundation;
-  border: $btn-border-width solid $heart-foundation;
-
-  @media (min-width: $on-palm) {
-    &:hover {
-      background: $heart-foundation;
-    }
-  }
-
-  @include media-query($on-palm) {
-    background: rgba(191, 26, 4, 0.2);
-  }
-}
-
-.donate {
-  &-text, &-charity, &-country {
-    display: block;
-    text-align: center;
-    line-height: 1;
-  }
-
-  &-charity {
-    font-size: 1.25em;
-    line-height: 1.25;
-    font-weight: bold;
-  }
-
-  &-country {
-    font-size: 0.625em;
-  }
-}
-
-.reports {
-  color: white;
-  margin-top: 2em;
+  overflow: hidden;
 
   &-text {
-    font-size: 0.825em;
+    padding: 3em 2em;
   }
 
-  &-arrow {
-    font-family: $highlight-font-family;
-    transform: rotate(90deg);
-    display: block;
-    font-size: 2em;
-    line-height: 0.5;
+  &-title {
+    display: flex;
+    align-items: center;
+    position: relative;
+    line-height: 1;
+  
+    h1 {
+      display: flex;
+      font-size: 5em;
+      font-weight: bold;
+      line-height: 1.2;
+
+      span {
+        font-weight: normal;
+      }
+    }
+  }
+
+  .hashtag {
+    font-size: 5em;
+    display: inline;
+    font-weight: lighter;
+    opacity: 0;
+    animation: fadeIn 1s ease;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+  }
+
+  // animate the masthead text
+  .typing {
+    width: 0%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing steps(11, end);
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+  }
+
+  .tagline {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    opacity: 0;
+    animation: fadeIn 1s ease;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+  }
+
+  // progress bar, with animation
+  .masthead-progress {
+    width: 100%;
+    position: relative;
+
+    .progress-bar-full, .progress-bar-togo {
+      height: 20px;
+
+      span {
+        position: absolute;
+        right: 5px;
+        top: -25px;
+        white-space: nowrap;
+      }
+    }
+
+    .progress-bar-full {
+      width: 100%;
+      background: orange;
+      animation: fillIn 1s ease;
+      animation-fill-mode: backwards;
+      animation-delay: 8s;
+      position: relative;
+    }
+
+    .progress-bar-togo {
+      width: calc(100% * (2 / 26.2));
+      background: darkorange;
+      position: absolute;
+      bottom: 0;
+      animation: fillIn 1s ease;
+      animation-fill-mode: backwards;
+      animation-delay: 7s;
+
+      &:after {
+        content: "";
+        height: 100%;
+        width: 3px;
+        position: absolute;
+        right: 0;
+        background: white;
+      }
+    }
+  }
+}
+
+@keyframes typing {
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fillIn {
+  from {
+    width: 0;
   }
 }

@@ -43,7 +43,6 @@ $(function() {
     $('.heart-foundation-raised').text('$' + hfTotal.toFixed(2));
     $('.heart-foundation-supporters').text(hfSupporters);
   }, "json");
-
 });
 
 

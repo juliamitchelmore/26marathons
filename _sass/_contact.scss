@@ -5,6 +5,10 @@ $social: facebook instagram twitter email;
   background-color: #0847ad;
   color: white;
   padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   h2 {
     text-align: center;
