@@ -1,0 +1,23 @@
+{% assign sortedposts = (site.posts | sort: 'title') %}
+
+<div class="events">
+  <div class="events-list">
+  {% for post in sortedposts %}
+
+    {% if post.category == "wishlist" %}
+      <span>{{ post.name }}</span>
+    {% elsif post.category == "entered" %}
+      <span class="future">{{ post.name }}
+        <span class="hover">{{ post.date | date: "%d.%m.%Y" }}</span></span>
+    {% else %}
+      <a class="past" href={{ post.url | remove_first:'.html' | prepend: site.github.url }}>{{ post.name }}
+        <span class="hover" style="color: {{ post.color }}">{{ post.time }}</span></a>
+    {% endif %}
+
+  {% endfor %}
+  </div>
+
+  <div class="events-key">
+    (<span class="wishlist">Wishlist</span> <span class="future">Entered</span> <span class="past">Completed</span>)
+  </div>
+</div>

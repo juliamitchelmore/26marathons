@@ -73,7 +73,7 @@ $btn-border-width: 3px;
   }
 }
 
-.btn-trekstock, .btn-heartfoundation {
+.btn-trekstock, .btn-heart-foundation {
   color: white;
   width: 250px;
   margin: 0.5em;
@@ -106,13 +106,13 @@ $btn-border-width: 3px;
   }
 }
 
-.btn-heartfoundation {
-  background: $heartfoundation;
-  border: $btn-border-width solid $heartfoundation;
+.btn-heart-foundation {
+  background: $heart-foundation;
+  border: $btn-border-width solid $heart-foundation;
 
   @media (min-width: $on-palm) {
     &:hover {
-      background: $heartfoundation;
+      background: $heart-foundation;
     }
   }
 

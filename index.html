@@ -2,68 +2,18 @@
 layout: default
 ---
 
-<!-- MASTHEAD -->
+<section class="cd-section visible">
+  {% include masthead.html %}
+</section>
 
-<div class="masthead">
+<section class="cd-section">
+  {% include charities.html %}
+</section>
 
-  <p class="text-description">Julia is running 26.2 marathons by age 26.2</p>
-  <p class="text-sub">(because she's crazy, loves to run & wants to make a difference in people's lives)</p>
+<section class="cd-section">
+  {% include events.html %}
+</section>
 
-  <div class="countdown">
-    <header class="countdown-title">25.2 Marathons</header>
-    <span class="countdown-subtitle">still to run</span>
-  </div>
-
-  <div class="countdown">
-    <header class="countdown-title"><span class="countdown-dateDiff"></span> Days</header>
-    <span class="countdown-subtitle">until 26.2th birthday</span>
-  </div>
-
-  <div class="donate-buttons">
-    <a class="btn btn-trekstock" href="http://uk.virginmoneygiving.com/26marathons">
-      <span class="donate-text">Support me through</span>
-      <span class="donate-charity">Trekstock</span>
-      <span class="donate-country">UK</span>
-    </a>
-
-    <a class="btn btn-heartfoundation" href="https://give.everydayhero.com/au/26marathons">
-      <span class="donate-text">Support me through the</span>
-      <span class="donate-charity">Heart Foundation</span>
-      <span class="donate-country">AUS</span>
-    </a>
-  </div>
-
-  <p class="text-description">Next marathon: <strong>Dublin Marathon</strong> on 30.10.2016</p>
-
-  <a class="reports" href="#marathons">
-    <span class="reports-text">Completed marathons</span>
-    <span class="reports-arrow">></span>
-  </a>
-
-</div>
-
-<script>
-  var thisDate = new Date();
-  var endDate = new Date(2019, 03, 21)
-  var dateDiff = Math.round((endDate.getTime() - thisDate.getTime())/(86400000));
-  document.querySelector(".countdown-dateDiff").textContent = dateDiff;
-</script>
-
-<!-- POST LIST -->
-
-<div id="marathons">
-{% for post in site.posts reversed %}
-  <a class="postlist" href={{ post.url | remove_first:'.html' | prepend: site.github.url }} style="background-color: {{ post.color }}">
-    <span class="postlist-number">#{{ post.number }}</span>
-    <div class="postlist-section">
-      <span class="postlist-title">{{ post.title }}</span>
-      <span class="postlist-date">{{ post.date | date: "%d.%m.%Y" }}</span>
-    </div>
-    <div class="postlist-section hidden-palm">
-      <p class="postlist-details">Official Time: <span class="postlist-time">{{ post.time }}</span></p>
-      <p class="postlist-details">In three words: <span class="postlist-mood">{{ post.mood }}</span></p>
-    </div>
-    <span class="postlist-arrow">></span>
-  </a>
-{% endfor %}
-</div>
+<section class="cd-section">
+  {% include contact.html %}
+</section>

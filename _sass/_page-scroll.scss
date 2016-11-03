@@ -1,0 +1,65 @@
+body[data-hijacking="on"] {
+  background-color: lightslategray;
+  transition: background-color 1.5s ease-in-out;
+
+  &::before {
+    /* never visible - this is used in jQuery to check the current MQ */ 
+    content: 'mobile';
+    display: none;
+  }
+
+  @include media-query($on-laptop) {
+    
+    &::before {
+      /* never visible - this is used in jQuery to check the current MQ */ 
+      content: 'desktop';
+    }
+  }
+
+  @include media-query($on-laptop) {
+    overflow: hidden;
+  }
+}
+
+.cd-section {
+  height: 100vh;
+
+  > div {
+    border: 15px solid white;
+  }
+
+  @include media-query($on-laptop) {
+    [data-hijacking="on"] & {
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+
+      > div {
+        visibility: visible;
+      }
+    }
+  }
+}
+
+@include media-query($on-laptop) {
+  .cd-section:first-of-type > div::before {
+    display: none;
+  }
+}
+
+.cd-section > div {
+
+  @include media-query($on-laptop) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    /* Force Hardware Acceleration */
+    @include transform(translateZ(0));
+    @include backface-visibility(hidden);
+  }
+}

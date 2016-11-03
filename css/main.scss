@@ -20,8 +20,8 @@ $brand-color:      #2a7ae2;
 
 $highlight-font-family: 'Economica', sans-serif;
 
-$trekstock:        rgb(37,227,222);
-$heartfoundation:  #bf1a04;
+$trekstock:        #25e3de;
+$heart-foundation:  #bf1a04;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -33,28 +33,46 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
+    @media screen and (min-width: $device) {
         @content;
     }
 }
 
+@mixin prefixer($property, $value, $prefixes) {
+  @each $prefix in $prefixes {
+    @if $prefix == webkit {
+        -webkit-#{$property}: $value;
+    } @else if $prefix == moz {
+        -moz-#{$property}: $value;
+    } @else if $prefix == ms {
+        -ms-#{$property}: $value;
+    } @else if $prefix == o {
+        -o-#{$property}: $value;
+    } @else if $prefix == spec {
+        #{$property}: $value;
+    } @else  {
+      @warn "Unrecognized prefix: #{$prefix}";
+    }
+  }
+}
 
+@mixin transform($property: none) {
+  @include prefixer(transform, $property, webkit moz ms o spec);
+}
+
+@mixin backface-visibility($visibility) {
+  @include prefixer(backface-visibility, $visibility, webkit spec);
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "page-scroll",
         "masthead",
-        "postlist",
+        "charities",
+        "events",
+        "contact",
         "header",
         "post",
         "syntax-highlighting"

@@ -18,6 +18,7 @@ github_username:  juliamitchelmore
 
 # Build settings
 markdown: kramdown
+future: true
 
 # Outputting
 permalink: /:title

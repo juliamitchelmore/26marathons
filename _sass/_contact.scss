@@ -1,0 +1,53 @@
+$social: facebook instagram twitter email;
+
+.contact {
+  height: 100vh;
+  background-color: #0847ad;
+  color: white;
+  padding: 5%;
+
+  h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.125em;
+  }
+
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+
+  &-links {
+    text-align: center;
+    margin: 2em 0;
+  }
+
+  &-logo {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-color: white;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    margin: 0 1em;
+
+    &.email, &.twitter {
+      width: 60px;
+    }
+
+    &:hover {
+      background-color: orange;
+    }
+
+    @each $media in $social {
+      &.#{$media} {
+      -webkit-mask-image: url('/images/#{$media}-logo.svg');
+      mask-image: url('/images/#{$media}-logo.svg');
+    }
+    }
+  }
+}

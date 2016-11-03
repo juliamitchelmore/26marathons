@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Sydney Marathon"
+name:   "Sydney"
 date:   2016-09-18
-number: 1
+category: completed
 time:   "3:41:14"
-mood:   "Happy, fun, unexpected"
 color:  "#008C99"
 ---
 
