@@ -1,5 +1,6 @@
 .charities {
-  height: 100vh;
+  min-height: 100vh;
+  padding-bottom: 1em;
   
   &.trekstock {
     background-color: $trekstock;
@@ -15,13 +16,24 @@
 
   &-description {
     max-width: $on-laptop;
-    font-size: 4.5vw;
-    margin: 2em 1em;
-    text-align: center;
+    font-size: calc(2.2vw + 1vh + 0.5vmin);
+    margin: 1em;
 
     @include media-query($on-laptop) {
       margin: 2em auto;
       font-size: 1.25em;
+    }
+
+    p {
+      margin-bottom: 10px;
+
+      @include media-query($on-laptop) {
+      margin-bottom: 1em;
+
+        strong {
+          display: block;
+        }
+      }
     }
   }
 
@@ -37,7 +49,7 @@
 
     @include media-query($on-laptop) {
       width: 80%;
-      padding: 20px 20px 20px 0;
+      padding: 15px 20px 15px 0;
       margin: 0;
     }
 
@@ -47,12 +59,13 @@
 
     &-logo {
       max-width: 40%;
+      max-height: 100px;
       padding: 0 10px;
 
       @include media-query($on-laptop) {
         font-size: 3em;
         max-width: none;
-        max-height: 150px;
+        max-height: 120px;
       }
     }
 

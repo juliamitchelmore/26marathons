@@ -19,14 +19,16 @@ $social: facebook instagram twitter email;
     font-size: 2em;
     font-weight: bold;
     line-height: 1.2;
+    margin: auto 0;
 
     @include media-query($on-laptop) {
       font-size: 3em;
+      margin: 0 0 1em;
     }
   }
 
   p {
-    font-size: 4.5vw;
+    font-size: calc(2.2vw + 1vh + 0.5vmin);
     max-width: $on-laptop;
     
     @include media-query($on-laptop) {
@@ -41,7 +43,7 @@ $social: facebook instagram twitter email;
 
   &-links {
     text-align: center;
-    margin: 1em 0;
+    margin: auto 0;
 
     @include media-query($on-laptop) {
       margin: 2em 0;
