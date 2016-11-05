@@ -14,38 +14,86 @@
   }
 
   &-description {
-    max-width: 60%;
-    margin: 2em auto;
-    font-size: 1.25em;
+    max-width: $on-laptop;
+    font-size: 4.5vw;
+    margin: 2em 1em;
     text-align: center;
+
+    @include media-query($on-laptop) {
+      margin: 2em auto;
+      font-size: 1.25em;
+    }
   }
 
   .donate {
-    width: 80%;
+    width: 90%;
     background: white;
-    padding: 20px 20px 20px 0;
+    padding: 15px 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    @include media-query($on-laptop) {
+      width: 80%;
+      padding: 20px 20px 20px 0;
+      margin: 0;
+    }
+
+    @include media-query($on-laptop) {
+      flex-wrap: nowrap;
+    }
 
     &-logo {
-      max-height: 150px;
+      max-width: 40%;
       padding: 0 10px;
+
+      @include media-query($on-laptop) {
+        font-size: 3em;
+        max-width: none;
+        max-height: 150px;
+      }
     }
 
     &-raised {
       text-align: center;
       margin: 0 10px;
+      flex-basis: 50%;
+
+      @include media-query($on-laptop) {
+        flex-basis: auto;
+      }
+
+      &-text {
+        font-size: 0.85em;
+
+        @include media-query($on-laptop) {
+          font-size: 1em;
+        }
+      }
     }
   }
 
   .trekstock-raised, .heart-foundation-raised {
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: bold;
+
+    @include media-query($on-laptop) {
+      font-size: 2.5em;
+    }
   }
 }
 
 .btn-donate {
   background: black;
   color: white;
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+
+  @include media-query($on-laptop) {
+    margin: 0;
+    width: auto;
+  }
 }

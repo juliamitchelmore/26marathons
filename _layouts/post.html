@@ -18,16 +18,16 @@
       
       <div class="post-content">{{content}}</div>
 
-      <div class="post-pagination">
-        {% if page.previous.url %}
-          <a class="post-prev" href="{{page.previous.url}}">&laquo; #{{page.previous.number}}: {{page.previous.title}}</a>
-        {% endif %}
-        {% if page.next.url %}
-          <a class="post-next" href="{{page.next.url}}">#{{page.next.number}}: {{page.next.title}} &raquo;</a>
-        {% endif %}
-      </div>
-
     </article>
+
+    <div class="post-pagination">
+      {% if page.previous.url and page.previous.category == "completed" %}
+        <a class="post-prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+      {% endif %}
+      {% if page.next.url and page.next.category == "completed" %}
+        <a class="post-next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+      {% endif %}
+    </div>
 
     {% include foot.html %}
   

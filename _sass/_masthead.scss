@@ -13,20 +13,32 @@
   overflow: hidden;
 
   &-text {
-    padding: 3em 2em;
+    padding: 4em 2em;
+
+    @include media-query($on-laptop) {
+      padding: 3em 2em;
+    }
   }
 
   &-title {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     position: relative;
     line-height: 1;
+
+    @include media-query($on-laptop) {
+      align-items: center;
+    }
   
     h1 {
       display: flex;
-      font-size: 5em;
+      font-size: 2.5em;
       font-weight: bold;
       line-height: 1.2;
+
+      @include media-query($on-laptop) {
+        font-size: 5em;
+      }
 
       span {
         font-weight: normal;
@@ -35,34 +47,44 @@
   }
 
   .hashtag {
-    font-size: 5em;
+    font-size: 2.5em;
     display: inline;
     font-weight: lighter;
-    opacity: 0;
-    animation: fadeIn 1s ease;
-    animation-delay: 4s;
-    animation-fill-mode: forwards;
+
+    @include media-query($on-laptop) {
+      font-size: 5em;
+      opacity: 0;
+      animation: fadeIn 1s ease;
+      animation-delay: 2.5s;
+      animation-fill-mode: forwards;
+    }
   }
 
-  // animate the masthead text
-  .typing {
-    width: 0%;
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 0 auto;
-    animation: typing steps(11, end);
-    animation-duration: 1s;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
+  @include media-query($on-laptop) {
+    // animate the masthead text
+    .typing {
+      width: 0%;
+      overflow: hidden;
+      white-space: nowrap;
+      margin: 0 auto;
+      animation: typing steps(11, end);
+      animation-duration: 1s;
+      animation-delay: 0.8s;
+      animation-fill-mode: forwards;
+    }
   }
 
   .tagline {
     text-transform: uppercase;
-    font-size: 1.5em;
-    opacity: 0;
-    animation: fadeIn 1s ease;
-    animation-delay: 6s;
-    animation-fill-mode: forwards;
+    font-size: 1.25em;
+
+    @include media-query($on-laptop) {
+      font-size: 1.5em;
+      opacity: 0;
+      animation: fadeIn 1s ease;
+      animation-delay: 3.5s;
+      animation-fill-mode: forwards;
+    }
   }
 
   // progress bar, with animation
@@ -75,19 +97,25 @@
 
       span {
         position: absolute;
-        right: 5px;
         top: -25px;
         white-space: nowrap;
       }
     }
 
-    .progress-bar-full {
-      width: 100%;
-      background: orange;
-      animation: fillIn 1s ease;
+    .progress-bar-full span {
+      right: 5px;
+    }
+
+    .progress-bar-togo span {
+      right: -45px;
+      animation: slideIn 1s ease;
       animation-fill-mode: backwards;
-      animation-delay: 8s;
-      position: relative;
+      animation-delay: 1s;
+
+      @include media-query($on-laptop) {
+        right: 5px;
+        animation: none;
+      }
     }
 
     .progress-bar-togo {
@@ -97,7 +125,11 @@
       bottom: 0;
       animation: fillIn 1s ease;
       animation-fill-mode: backwards;
-      animation-delay: 7s;
+      animation-delay: 1s;
+
+      @include media-query($on-laptop) {
+        animation-delay: 4.5s;
+      }
 
       &:after {
         content: "";
@@ -106,6 +138,19 @@
         position: absolute;
         right: 0;
         background: white;
+      }
+    }
+
+    .progress-bar-full {
+      width: 100%;
+      background: orange;
+      animation: fillIn 1s ease;
+      animation-fill-mode: backwards;
+      animation-delay: 1s;
+      position: relative;
+
+      @include media-query($on-laptop) {
+        animation-delay: 5.5s;
       }
     }
   }
@@ -126,5 +171,11 @@
 @keyframes fillIn {
   from {
     width: 0;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    right: 5px;
   }
 }

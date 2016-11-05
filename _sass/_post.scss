@@ -1,10 +1,10 @@
 /* post page */
 
 .post {
-  padding: 1em 1.5em;
+  padding: 1em 1em 0;
 
-  @include media-query($on-palm) {
-    padding: 1em;
+  @include media-query($on-laptop) {
+    padding: 1em 1.5em 0;
   }
 
   &-header {
@@ -26,28 +26,10 @@
     font-weight: 600;
   }
 
-  /* pagination */
-  &-pagination {
-    margin-top: 2em;
-
-    a {
-      display: block;
-      color: #898B91;
-      font-style: italic;
-      font-size: 0.875em;
-
-      &:hover, &:visited {
-        color: #898B91;
-      }
-    }
-  }
-
-  &-next {
-    text-align: right;
-  }
-
-
   &-content {
+    max-width: $on-laptop;
+    margin: 0 auto;
+
     img {
       display: block;
       margin: 0 auto;
@@ -63,20 +45,51 @@
     
     /* for post images */
     .center-half {
-      width: 50%;
+      width: 75%;
 
-      @include media-query($on-palm) {
-        width: 75%;
+      @include media-query($on-laptop) {
+        width: 50%;
       }
     }
 
     .center-padded {
-      width: 90%;
+      width: 100%;
 
-      @include media-query($on-palm) {
-        width: 100%;
+      @include media-query($on-laptop) {
+        width: 90%;
       }
     }
+  }
+
+  /* pagination */
+  &-pagination {
+    margin: 2em 10px 1em;
+    padding-bottom: 1em;
+
+    @include media-query($on-laptop) {
+      max-width: $on-laptop;
+      margin: 1em auto;
+    }
+
+    a {
+      display: block;
+      color: #898B91;
+      font-style: italic;
+      font-size: 0.875em;
+      display: inline;
+
+      &:hover, &:visited {
+        color: #898B91;
+      }
+    }
+  }
+
+  &-prev {
+    float: left;
+  }
+
+  &-next {
+    float: right;
   }
 }
 

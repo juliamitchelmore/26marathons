@@ -12,13 +12,13 @@
         <span class="hover">{{ post.date | date: "%d.%m.%Y" }}</span></span>
     {% else %}
       <a class="past" href={{ post.url | remove_first:'.html' | prepend: site.github.url }}>{{ post.name }}
-        <span class="hover" style="color: {{ post.color }}">{{ post.time }}</span></a>
+      <span class="hover" style="color: {{ post.color }}">{{ post.time }}</span></a>
     {% endif %}
 
   {% endfor %}
   </div>
 
   <div class="events-key">
-    (<span class="wishlist">Wishlist</span> <span class="future">Entered</span> <span class="past">Completed</span>)
+    <span class="wishlist">Wishlist</span> <span class="future">Entered</span> <a href={{'/sydney-marathon' | prepend: site.github.url}} class="past">Finished (Blog)</a>
   </div>
 </div>

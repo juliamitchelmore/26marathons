@@ -154,7 +154,7 @@ jQuery(document).ready(function($) {
         break;
       case(2):
         if ($('.charities').hasClass('trekstock')) {
-          bgColor = "mediumturquoise"
+          bgColor = "darkturquoise"
         } else {
           bgColor = "darkred"
         }

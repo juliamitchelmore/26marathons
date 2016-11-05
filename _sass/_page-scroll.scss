@@ -1,5 +1,5 @@
 body[data-hijacking="on"] {
-  background-color: lightslategray;
+  background-color: #7E828D;
   transition: background-color 1.5s ease-in-out;
 
   &::before {
@@ -25,7 +25,13 @@ body[data-hijacking="on"] {
   height: 100vh;
 
   > div {
-    border: 15px solid white;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+
+    @include media-query($on-laptop) {
+      padding: 0;
+      border: 15px solid white;
+    }
   }
 
   @include media-query($on-laptop) {

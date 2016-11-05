@@ -16,6 +16,7 @@
 
     @include media-query ($on-laptop) {
       font-size: calc(2vw + 2vh + 1.25vmin);
+      padding: 0 10px;
     }
     
     span, a {
@@ -33,21 +34,17 @@
   .past, .future {
     color: $text-color;
     
-    &:hover {
-      word-break: normal;
-      word-wrap: normal;
-      
-      .hover {
-        display: inline-block;
-      }
-      
-      &.sydney {
-        color: #008C99;
-      }
-      &.dublin {
-        color: #004687;
+    @include media-query($on-laptop) {
+      &:hover {
+        word-break: normal;
+        word-wrap: normal;
+        
+        .hover {
+          display: inline-block;
+        }
       }
     }
+
   }
 
   .past {
