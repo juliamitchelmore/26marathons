@@ -9,10 +9,10 @@
       <span>{{ post.name }}</span>
     {% elsif post.category == "entered" %}
       <span class="future">{{ post.name }}
-        <span class="hover">{{ post.date | date: "%d.%m.%Y" }}</span></span>
+        <span class="detail">{{ post.date | date: "%d.%m.%Y" }}</span></span>
     {% else %}
-      <a class="past" href={{ post.url | remove_first:'.html' | prepend: site.github.url }}>{{ post.name }}
-      <span class="hover" style="color: {{ post.color }}">{{ post.time }}</span></a>
+      <a class="past" href={{ post.url | remove_first:'.html' | prepend: site.github.url }} style="color: {{ post.color }}">{{ post.name }}
+      <span class="detail">{{ post.time }}</span></a>
     {% endif %}
 
   {% endfor %}
