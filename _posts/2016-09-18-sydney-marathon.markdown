@@ -10,7 +10,7 @@ color:  "#008C99"
 
 Wow! What a way to start off this 26.2 marathon challenge!
 
-I had planned to run Sydney Marathon this year, even before the challenge was created, because it fit in nicely with a trip home to attend a friend’s wedding. I thought it was poignant that I would be running my ‘home’ marathon as the first one of the challenge, and I knew that a lot of running friends would be out on the course either running or cheering.
+I had planned to run Sydney Marathon this year even before the challenge was created, because it fit in nicely with a trip home to attend a friend’s wedding. I thought it was poignant that I would be running my ‘home’ marathon as the first one of the challenge, and I knew that a lot of running friends would be out on the course either running or cheering.
 
 Heading into this marathon I felt like I hadn’t done enough specific training, and was basically relying on the fact that I’ve run this distance before to get me through. The plan was to take it at a leisurely pace, high-five lots of children, walk through the water stops, chat to volunteers and hug my parents along the way. I was expecting the run to take at least four hours, if not more, to fit all those activities in!
 
@@ -21,7 +21,7 @@ As it turns out, running by feel is incredible, and I felt AMAZING!
 ![My naked wrist without a Garmin watch](images/sydney-naked-wrist.jpg){: .center-padded}
 *My naked wrist without a Garmin watch*
 
-The start of the race sees you running over the Sydney Harbour Bridge - an incredible experience in itself which I live-video’d for Advent Running, my running group in London. The updated, ‘flatter and faster’ course then takes you through the city centre via Hyde Park and Oxford Street out to run in squiggles around Centennial Park before coming back  through Hyde Park again and running along the foreshore of the Harbour out to the Pyrmont Wharves before turning back through Darling Harbour and around to the Sydney Opera House. It gives you a great overview of the city, even if it does often do some weird out-and-back loops just to add some more distance.
+The start of the race sees you running over the Sydney Harbour Bridge - an incredible experience in itself which I live-video’d for Advent Running, my running group in London. The updated ‘flatter and faster’ course then takes you through the city centre via Hyde Park and Oxford Street out to run in squiggles around Centennial Park before coming back  through Hyde Park again and running along the foreshore of the Harbour out to the Pyrmont Wharves before turning back through Darling Harbour and around to the Sydney Opera House. It gives you a great overview of the city, even if it does often do some weird out-and-back loops just to add some more distance.
 
 ![Me at the start of the Sydney Marathon](images/sydney-start-line.jpg){: .center-half}
 *At the start line of the Sydney Marathon, feeling ready to run!*
