@@ -8,9 +8,9 @@ time:   "3:41:14"
 color:  "#008C99"
 ---
 
-Wow! What a way to start off this 26.2 marathon challenge!
+Wow! What a way to celebrate running my home city!
 
-I had planned to run Sydney Marathon this year even before the challenge was created, because it fit in nicely with a trip home to attend a friend’s wedding. I thought it was poignant that I would be running my ‘home’ marathon as the first one of the challenge, and I knew that a lot of running friends would be out on the course either running or cheering.
+I had planned to run Sydney Marathon this year even before the challenge was created, because it fit in nicely with a trip home to attend a friend’s wedding. I couldn't wait to run my ‘home’ marathon, and I knew that a lot of running friends would be out on the course either running or cheering.
 
 Heading into this marathon I felt like I hadn’t done enough specific training, and was basically relying on the fact that I’ve run this distance before to get me through. The plan was to take it at a leisurely pace, high-five lots of children, walk through the water stops, chat to volunteers and hug my parents along the way. I was expecting the run to take at least four hours, if not more, to fit all those activities in!
 
@@ -55,8 +55,6 @@ Coming through the last 500m towards the Opera House there was this incredible t
 *At the finish line of the Sydney Marathon, you could not get the grin off my face*
 
 I had an absolute BLAST running the Sydney Marathon. It was a great course, very well-organised and the support from the side-lines was fantastic. I definitely had a ‘home’ advantage knowing the course and the people running it, but I would recommend it for anyone wanting a city marathon.
-
-One down, 25.2 to go!
 
 ![The Blackmores Sydney Marathon medal](images/sydney-medal.jpg){: .center-half}
 *The race medal, it's so pretty!*

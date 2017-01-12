@@ -33,6 +33,7 @@
   .past {
     font-weight: bold;
     position: relative;
+    word-break: normal;
 
     @include media-query($on-laptop) {
       &:hover {

@@ -1,6 +1,9 @@
 .charities {
   min-height: 100vh;
   padding-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   
   &.trekstock {
     background-color: $trekstock;
@@ -20,7 +23,7 @@
     margin: 1em;
 
     @include media-query($on-laptop) {
-      margin: 2em auto;
+      margin: 0 auto 2em;
       font-size: 1.25em;
     }
 
