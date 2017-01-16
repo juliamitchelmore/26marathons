@@ -15,7 +15,7 @@ Dublin fell only 6 weeks after Sydney marathon, and truth be told I barely cover
 I ordered from Amazon: an orange tutu, orange fairy wings, orange shorts (worn over black ones), 3 pairs of orange socks (the first ones were the wrong colour, and then I couldn't decide between the next 2), orange arm sleeves, orange lipstick and a length of orange ribbon. This combined with my orange 'Julia' shirt, orange sportsbra, orange nail polish and orange Nike Lunarglide 7s meant I was dressed head-to-toe in my favourite colour - and ready to run.
 
 ![Dressed up as an orange fairy at the Dublin Marathon](images/dublin-costume.jpg){: .center-padded}
-*My costume for the Dublin Marathon - an orange fairy!*
+*Three guesses as to my favourite colour*
 
 The Dublin Marathon takes you all the way around the city - first west to run around Phoenix Park, then looping to the east before heading in to finish in the city centre again. Most of it is through not-that-interesting residential areas, but this meant that there were lots of people standing outside their houses cheering all the way.
 
@@ -26,7 +26,7 @@ Our wave was due to start at 9:10, so I was a bit surprised when we started walk
 Because of the long walk to the start, I barely noticed that I had now officially begun the marathon. My pace was gentle, the wings were nowhere near as much a nuisance as I had expected, it was all good except... my orange shorts kept falling down! It was super annoying - I could feel them creeping towards my knees and off my butt and must have pulled them up 3 or 4 times before deciding to ditch them with a mile run. Goodbye £6 'Adidas' Amazon shorts - you were orange, but you sucked.
 
 ![Nail art saying Orange4Lyf](images/dublin-nails.jpg){: .center-padded}
-*Orange 4 Lyf - my motto for the marathon!*
+*Come on, favourite colour: two guesses left*
 
 Now less orange, but much more comfortable, I set off again along the course. The whole way along I felt in control, and the experience has blurred into one memory of running and waving and listening for people cheering my name and smiling and generally ignoring the distance.
 
@@ -37,21 +37,21 @@ I came through the first 10km in 59 mins (almost on target, yes!) and then the n
 My boyfriend Sye was waiting just past the 20km mark so I stopped and hugged him for a minute. I nearly missed him in amongst all the cheering at the point where he was standing! but glad that I did. We had a quick chat and he topped up my lipstick (very important!), and then I ran off again. Through the halfway point in ~2:04.
 
 ![Running the Dublin Marathon](images/dublin-run.jpg){: .center-half}
-*On route around the course, feeling good, looking better*
+*"You're looking rather swish" a lady says as I run past. "Why, I feel swish" I respond.*
 
 The worst point of the marathon came between mile 19 and 20 - that mile dragged on _forever_. I did manage to convince myself to stick it out until mile 21 where there would be a water+gel stop and I could take a quick walk break. (Of course, the stop actually came at mile 21.5...). Upon walking I could feel the ache in my legs to remind me that I was indeed running a marathon, but after a minute I was back running again with less than 5 miles to go.
 
 Past 22 miles I was felt like I was gliding along. I was having such a blast with the crowd and there really wasn't far to go now. I even remember thinking to myself that I didn't want this run to end: I could have happily continued on for many more miles if people were going to continue shouting out and cheering as much as they were.
 
 ![Another picture of running the Dublin Marathon](images/dublin-run2.jpg){: .center-half}
-*Still running! Still happy!*
+*Last guess! My farouite colour is...*
 
 I managed to reach my arranged meeting point with Sye (25 miles) at exactly the time I had said to him, but couldn't find him in the crowd! That lead to some hectic side-to-side scanning until I eventually located him another half-mile down the road. Another hug, more lipstick and now there was only a kilometre or so left in it!
 
 The cheering had been insane the whole way around, but that final stretch was something else again. With blue carpet underfoot I ran and waved and then jumped over the finish line: Dublin Marathon complete in 4:08:23!
 
 ![Jumping over the Dublin Marathon finish line](images/dublin-jump.jpg){: .center-padded}
-*Clearly had too much energy left if I could jump over the marathon finish line*
+*ORANGE! (BTW - this is definitely the way to cross a finish line. Sorry Vinitz, you need some practice)*
 
 All in all it was an incredible event in a super friendly city. I fell asleep still hearing 'GO JULIA' playing over and over in my mind. I felt easy and comfortable in my running, and although it was the slowest marathon I have ever run, it was also one of the best experiences ever.
 
@@ -63,4 +63,4 @@ __10/10, would recommend.__
 *Dublin Marathon gets two thumbs up from me!!*
 
 ![Showing off the Dublin Marathon medal and finisher shirt](images/dublin-finisher.jpg){: .center-half}
-*Showing off my newest medal and finisher shirt*
+*New bling bling woop woop*

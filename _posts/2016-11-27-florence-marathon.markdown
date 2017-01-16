@@ -17,7 +17,7 @@ I flew out to Florence by myself on the Saturday morning for another whirlwind w
 Once again I donned a tutu (this time dark blue) and attached a large Australian flag to the back of my shirt, as had been suggested by my friend Vu. The whole look ended up looking like a superhero, so I dubbed myself __bogan superwoman__!
 
 ![Dressed up as bogan superwoman in an Australian flag and tutu](images/florence-costume.jpg){: .center-half}
-*Bogan superwoman to the rescue! (or something like that)*
+*TO THE RESCUE! or the finish line. I'll take either*
 
 There were a few other people from my London run club who had come to Italy to run the marathon too, and we all caught up for pre-race pasta the night before. In amongst this group was the incredible [Gill Bland](http://www.blandontherun.com/), who was attempting her 3rd sub-3hour marathon in 3 months (spoiler alert: she did it!).
 
@@ -26,7 +26,7 @@ Most of the others were in the same start group as me, so I kept an eye out for 
 Annoyingly my flag was trod on a few times, and I had no idea what the Italian announcers were saying, but we eventually headed towards the start line. I had positioned myself some 20m behind the pink balloons of the 4:00 pacers. My intention was just to run along, keep them in sight somewhere in front of me and all would be fine. Inevitably though, I passed them after 6km (having locked on to a slightly quicker pace) and slowly left them behind.
 
 ![Florence marathon route from Strava](images/florence-strava.png){: .center-padded}
-*Florence marathon route as I ran it, courtesy of [Strava](https://www.strava.com/activities/786873136)*
+*Mr Squiggle, do your worst. (Courtesy of [Strava](https://www.strava.com/activities/786873136))*
 
 The Florence marathon route is very twisty-turny, but takes you on a wonderful sightseeing tour of the city. Although it loops back on itself multiple times, you somehow never feel like you've run a particular section before.
 
@@ -37,7 +37,7 @@ Although I had looked at the official course map before the race it had not show
 I crossed the 21.1km halfway point in 1:55ish. Having run the first 11km in just under an hour, and finished the next 11km (to 22km) in slightly quicker than that, I felt happy with the pace I had found. The next goal was to continue maintaining it as I crossed through the 28km mark (furthest I'd ever run before in one go, at Copenhagen Marathon in May) and beyond.
 
 ![Sweaty selfie taken while crossing the halfway point](images/florence-halfway.jpg){: .center-half}
-*Crossing the halfway point - sweaty, smiling and still having fun*
+*Taken exactly at halfway. Such organisation, much wow.*
 
 The aid stations along the course were great. Every 5km from the 5km mark they had water, electrolyte drink (translated as 'salts') and hot tea(!). Then in between, every 5km from 7.5km they had sponges soaked in water which were a total godsend. From 20km they also started giving out fruit (banana chunks, oranges, lemons), although I dropped my first piece! Devastating! After that I always took two.
 
@@ -48,7 +48,7 @@ In the second half of the race we headed east along some uninspiring back street
 My enjoyment of the race was starting to wane, and it reflects in my kilometre splits. So far I had managed to maintain a fairly consistent ~5:25 pace, but km 30 & 31 are closer to 5:40. I picked up to the low 5:30s again after taking a gel, but there was a noticable dip in the middle there.
 
 ![Running along the stadium track](images/florence-track.jpg){: .center-padded}
-*Running along the track at the Firenze Stadium whilst trying to swoosh the Australian flag*
+*The lady on the right's face 10/10 makes this picture fabulous*
 
 Out at the stadium we ran a loop of the athletics track, which reminded me of the finish of Melbourne marathon. We had then run 33km which I had achieved in just under 3 hours (on pace!), and I told myself that from this point onwards it really didn't matter how slow I ran. Even if I shuffle-jog-plodded to the end I would still make it through the next 9km in an hour and would achieve both my goals. My legs were still in their rhythm & didn't want to slow much, so I just kept going.
 
@@ -59,7 +59,7 @@ The race had started at the Duomo in the centre of town and would finish there t
 Then Victoria from my running group called out my name & started running next to me! Our other friend Vaz had somehow passed me and was just ahead, so for the last few kilometres the three of us ran in close proximity to each other. It was nice to see some familiar faces and be able to complain about how we were feeling, that did a lot to help with the final push.
 
 ![Final sprint down the blue carpet](images/florence-finish-sprint.jpg){: .center-padded}
-*Final sprint down the blue carpet to the finish line with my game face on*
+*Must make flag fly. Must make flag fly. Sprint!*
 
 The final stretch took us over the Ponte Vecchio and back to the Duomo. I found an ounce more speed in my legs once we reached the final 2km, and then at last there was the blue carpet and the finish line. I threw my arms up as I crossed over the line but there was no jumping to be had. I was just happy I could stop running!
 
@@ -68,7 +68,7 @@ Immediately afterwards my thoughts on the race were somewhat grim, but later in 
 That's amazing!
 
 ![My bib number and the view over florence](images/florence-view.jpg){: .center-padded}
-*The view over Florence - what a stunning city!*
+*Florence: what an absolutely stunning city*
 
 ![Me and my new Florence marathon medal](images/florence-medal.jpg){: .center-half}
-*I like medals. Medals are pretty.*
+*I like medals. Medals are pretty. Nomnomnom.*
