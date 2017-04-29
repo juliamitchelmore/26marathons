@@ -1,8 +1,8 @@
 .masthead {
   width: 100%;
-  background: url('../images/26marathons_background.jpg') no-repeat #898B91;
+  background: url('../images/26marathons-background.jpg') no-repeat #898B91;
   background-size: cover;
-  background-position: 0 100%;
+  background-position: 50% 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -120,8 +120,8 @@
     }
 
     .progress-bar-togo {
-      width: calc(100% * (8 / 26.2));
-      background: darkorange;
+      width: calc(100% * (9 / 26.2));
+      background: #0847ad;
       position: absolute;
       bottom: 0;
       animation: fillIn 1s ease;
@@ -144,7 +144,7 @@
 
     .progress-bar-full {
       width: 100%;
-      background: orange;
+      background: lighten(#0847ad, 10%);
       animation: fillIn 1s ease;
       animation-fill-mode: backwards;
       animation-delay: 1s;
