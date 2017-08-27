@@ -1,6 +1,6 @@
 ---
 title:  "Hamburg Marathon"
 name:   "Hamburg"
-date:   2019-04-21
-category: wishlist
+date:   2018-04-29
+category: entered
 ---
