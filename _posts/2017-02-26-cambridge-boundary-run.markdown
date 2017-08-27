@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cambridge Boundary Run"
-name:   "Cambridge Boundary Run"
+name:   "Cambridge"
 date:   2017-02-26
 category: completed
 time:   "4:06:00"
