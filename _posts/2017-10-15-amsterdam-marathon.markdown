@@ -8,7 +8,7 @@ time:   "3:48:47"
 color:  "#5086C2"
 ---
 
-Amsterdam Marathon felt quite different to all the other ones I've run. It was a lesson i setting expectations and being realistic given everything that came before it. It was probably most similar to London Marathon when I think about it - in both I came to realise very early on that my hopes for the race were not to be.
+Amsterdam Marathon felt quite different to all the other ones I've run. It was a lesson in setting expectations and being realistic given everything that came before it. It was probably most similar to London Marathon when I think about it - in both I came to realise very early on that my hopes for the race were not to be.
 
 In the three weeks between amsterdam and Amsterdam I ran less than 50km in total. My body and mind needed a break after all the intense training and I spent the majority of that time eating and drinking. The exercise I did do incorporated a variety of other activities like cycling, swimming, boxing and football. Anything but running! I simply didn't want to follow a spreadsheet and commit to training. I needed a break.
 
