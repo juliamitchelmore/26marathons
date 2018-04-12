@@ -3,7 +3,7 @@
   background: url('../images/26marathons-background.jpg') no-repeat #898B91;
   background-size: cover;
   background-position: 50% 100%;
-  height: 100vh;
+  height: calc(100vh - 30px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,21 +47,16 @@
     }
   }
 
-  .hashtag {
-    font-size: 2.5em;
-    display: inline;
-    font-weight: lighter;
-
+  .fadeIn {
     @include media-query($on-laptop) {
-      font-size: 5em;
       opacity: 0;
-      animation: fadeIn 1s ease;
-      animation-delay: 2.5s;
+      animation: fadeIn 2s ease;
+      animation-delay: 0.5s;
       animation-fill-mode: forwards;
     }
   }
 
-  @include media-query($on-laptop) {
+/*   @include media-query($on-laptop) {
     // animate the masthead text
     .typing {
       width: 0%;
@@ -73,19 +68,19 @@
       animation-delay: 0.8s;
       animation-fill-mode: forwards;
     }
-  }
+  } */
 
   .tagline {
     text-transform: uppercase;
     font-size: 1.25em;
 
-    @include media-query($on-laptop) {
+    /* @include media-query($on-laptop) {
       font-size: 1.5em;
       opacity: 0;
       animation: fadeIn 1s ease;
       animation-delay: 3.5s;
       animation-fill-mode: forwards;
-    }
+    } */
   }
 
   // progress bar, with animation
@@ -94,12 +89,13 @@
     position: relative;
 
     .progress-bar-full, .progress-bar-togo {
-      height: 20px;
+      height: 30px;
 
       span {
         position: absolute;
         top: -25px;
         white-space: nowrap;
+        font-weight: bold;
       }
     }
 
@@ -113,10 +109,10 @@
       animation-fill-mode: backwards;
       animation-delay: 1s;
 
-      @include media-query($on-laptop) {
+      /* @include media-query($on-laptop) {
         right: 5px;
         animation: none;
-      }
+      } */
     }
 
     .progress-bar-togo {
@@ -128,14 +124,14 @@
       animation-fill-mode: backwards;
       animation-delay: 1s;
 
-      @include media-query($on-laptop) {
+      /* @include media-query($on-laptop) {
         animation-delay: 4.5s;
-      }
+      } */
 
       &:after {
         content: "";
         height: 100%;
-        width: 3px;
+        width: 5px;
         position: absolute;
         right: 0;
         background: white;
@@ -147,12 +143,12 @@
       background: lighten(#0847ad, 10%);
       animation: fillIn 1s ease;
       animation-fill-mode: backwards;
-      animation-delay: 1s;
+      animation-delay: 2s;
       position: relative;
 
-      @include media-query($on-laptop) {
+      /* @include media-query($on-laptop) {
         animation-delay: 5.5s;
-      }
+      } */
     }
   }
 }

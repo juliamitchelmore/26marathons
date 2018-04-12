@@ -1,6 +1,6 @@
 ---
-title:  "New York Marathon"
-name:   "New York"
-date:   2019-04-17
-category: wishlist
+title:  "San Sebastian Marathon"
+name:   "San Sebastian"
+date:   2018-11-25
+category: entered
 ---

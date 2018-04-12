@@ -1,5 +1,5 @@
 .events {
-  min-height: 100vh;
+  min-height: calc(100vh - 30px);
   background: $grey-color-light;
   padding: 5px 10px;
   position: relative;
@@ -36,18 +36,17 @@
 
     @include media-query($on-laptop) {
       &:hover {
-        &:after {
+        &:before {
           content: "";
           display: block;
-          width: 100%;
+          width: calc(100% + 20px);
           height: 100%;
           position: absolute;
           top: 0;
-          left: 0;
+          left: -10px;
           animation: fillIn 0.5s ease;
           animation-fill-mode: backwards;
           background: white;
-          z-index: -1;
         }
       }
     }
@@ -55,6 +54,11 @@
 
   p {
     margin: 0;
+
+  }
+  
+  .index, .name, .detail {
+    position: relative;
   }
 
   .index {

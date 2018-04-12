@@ -1,9 +1,8 @@
-body[data-hijacking="on"] {
+/* body[data-hijacking="on"] {
   background-color: #7E828D;
   transition: background-color 1.5s ease-in-out;
 
   &::before {
-    /* never visible - this is used in jQuery to check the current MQ */ 
     content: 'mobile';
     display: none;
   }
@@ -11,7 +10,6 @@ body[data-hijacking="on"] {
   @include media-query($on-laptop) {
     
     &::before {
-      /* never visible - this is used in jQuery to check the current MQ */ 
       content: 'desktop';
     }
   }
@@ -19,10 +17,10 @@ body[data-hijacking="on"] {
   @include media-query($on-laptop) {
     overflow: hidden;
   }
-}
+} */
 
 .cd-section {
-  min-height: 100vh;
+  //min-height: 100vh;
 
   > div {
     border-top: 10px solid white;
@@ -34,7 +32,7 @@ body[data-hijacking="on"] {
     }
   }
 
-  @include media-query($on-laptop) {
+/*   @include media-query($on-laptop) {
     [data-hijacking="on"] & {
       opacity: 0;
       visibility: hidden;
@@ -47,9 +45,9 @@ body[data-hijacking="on"] {
         visibility: visible;
       }
     }
-  }
+  } */
 }
-
+/* 
 @include media-query($on-laptop) {
   .cd-section:first-of-type > div::before {
     display: none;
@@ -64,8 +62,8 @@ body[data-hijacking="on"] {
     left: 0;
     width: 100%;
     
-    /* Force Hardware Acceleration */
     @include transform(translateZ(0));
     @include backface-visibility(hidden);
   }
 }
+ */
