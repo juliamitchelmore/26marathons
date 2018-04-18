@@ -36,6 +36,7 @@
       font-size: 2.5em;
       font-weight: bold;
       line-height: 1.2;
+      text-shadow: 2px 2px rgba(8,71,173,0.5);
 
       @include media-query($on-laptop) {
         font-size: 5em;
@@ -73,6 +74,7 @@
   .tagline {
     text-transform: uppercase;
     font-size: 1.25em;
+    text-shadow: 2px 2px rgba(8,71,173,0.5);
 
     /* @include media-query($on-laptop) {
       font-size: 1.5em;
@@ -93,7 +95,7 @@
 
       span {
         position: absolute;
-        top: -25px;
+        top: 3px;
         white-space: nowrap;
         font-weight: bold;
       }
@@ -104,10 +106,10 @@
     }
 
     .progress-bar-togo span {
-      right: -45px;
+      right: 10px;
       animation: slideIn 1s ease;
       animation-fill-mode: backwards;
-      animation-delay: 1s;
+      animation-delay: 1.5s;
 
       /* @include media-query($on-laptop) {
         right: 5px;
@@ -116,7 +118,7 @@
     }
 
     .progress-bar-togo {
-      width: calc(100% * (17 / 26.2));
+      width: calc(100% * (18 / 26.2));
       background: #0847ad;
       position: absolute;
       bottom: 0;
