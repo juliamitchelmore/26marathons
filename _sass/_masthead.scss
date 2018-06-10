@@ -103,6 +103,11 @@
 
     .progress-bar-full span {
       right: 5px;
+      top: -25px;
+
+      @include media-query($on-laptop) {
+        top: 3px;
+      }
     }
 
     .progress-bar-togo span {
@@ -118,7 +123,7 @@
     }
 
     .progress-bar-togo {
-      width: calc(100% * (18 / 26.2));
+      width: calc(100% * (21 / 26.2));
       background: #0847ad;
       position: absolute;
       bottom: 0;
