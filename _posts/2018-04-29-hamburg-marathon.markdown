@@ -12,13 +12,13 @@ Four marathons in four weeks, each one run in under four hours! I almost can't b
 
 I flew out the day before with enough time to pick up my bib at the expo a few hours before it closed, and then fuel up with pasta. The expo was at the same place as the marathon start the next morning, a 20-minute walk from my AirBnB. Come race-day though, I chose to make use of the free public transport for runners, which is always a great help (especially afterwards!). However, I managed to arrive a few minutes before the half-marathoners set off, and had to cut through them to get to the marathon bag-drop area, so that was a little awkward... Everything else about the marathon was very well organised, and with half-an-hour until the start I lined up in pen F.
 
-![My bib number for the marathon](images/hamburg-bib.jpg){: .center-padded}
+![Selfie in the start pen](images/hamburg-start.jpg){: .center-half}
 
 This was not a super chatty day for me. I tried to have a conversation with a Danish guy in front of me who had just taken off his shoes to run the race barefoot, but he wasn't keen on conversation. I was wearing a space-blanket to keep warm, but it wasn't very necessary. It was ~13degs while we were waiting to start, which the announcer kept calling 'perfect marathon conditions!', but I don't think he realised that temperatures rise during the day. More likely he was comparing the weather to last year, when the race started with hail - this was certainly better than that!
 
 My plan for the marathon was a straight-forward progression, increasing speed every 10km. I wanted to start at ~4:00 pace (56min for the 10km), and then speed up by 12sec/km every 10km, so that I was finishing the subsequent sections in 54min, 52min and finally 50min, before opening the flood-gates and sprinting home. Theoretically that should see me finish in sub-3:45, but also leave enough time to ensure a sub-4 finish.
 
-![Selfie in the start pen](images/hamburg-start.jpg){: .center-half}
+![Happily running along with the masses](images/hamburg-bridge.jpg){: .center-padded}
 
 The first 200m were incredibly congested and the pace was slow, so it took a little while to settle into pace but once I found it, I felt very comfortable. Having run the first two marathons aiming for 3:59, I know what 5:35-5:40/km feels like pretty well now! There was a long slow incline within the first 5km which wasn't so comfortable, but I figured that maybe they were giving us the worst of the hills early on. I'd been told this was a 'flat and fast' course, so any elevation increase just seemed rude.
 
@@ -32,15 +32,13 @@ By 25km I hit my halfway split but I knew that I wouldn't be holding it on for m
 
 I probably could have pushed myself through to a quicker finish time, but it wasn't important enough. I took stock of the situation and rationally realised that yes, I was tired after all those weeks of marathoning, plus I wasn't making the most of the race atmosphere. It had been a beautiful course with lots of greenery, but I hadn't done much waving at supporters or high-fiving children. (Interestingly enough, barely anyone was handing out sweets or jelly babies at this race, maybe that's just not a German thing to do?). Rather than speed up, I was going to just keep going as best I could, but walk through the water, smile a bit more, and drink some Red Bull at the brand's 36.2km pep-up spot.
 
-![Running along happily](images/hamburg-run.png){: .center-padded}
-*Credit to Marathon Photos: official image coming soon.*
+![Is it a smile or a grimace?](images/hamburg-run.jpg){: .center-padded}
 
 In reality I didn't spend that much more time on the supporters (sorry!) because I had to try and get myself from kilometre to kilometre. It was a bit of a brain struggle, and I kept thinking 'keep running until the 33km mark', but then there was an aid-station just after 32km so fine, I walked there. Then I wanted to get to the Red Bull folks but there was an aid station at 35km where my stomach grumbled (despite gels) so I stopped for some flat Coke, and then again only 1.2km later, and oh look there's another aid station where I can pour some water over my head at 37.5km. There was quite a bit of walking going on...
 
 After the last aid station I decided that I should give that final sprint idea a go after all, and so set off at a quicker pace. What I didn't expect though was that the race would throw one last hill at us after the 41km mark. Sneaky sneaky! Inevitably though I made it to the top, and then it was only one more corner to turn onto the red carpet which was laid out for the finishers. At the 42km sign I found a last sprint in my legs and raced to the finish with my fingers held up in a big '4' above my head. I'd come in with 3:49:16 for my fastest marathon of the four weeks, and most importantly - IT WAS DONE! No more marathons for a few weeks, hallelulia!!
 
-![Holding up four fingers to signify four marathons run](images/hamburg-4.png){: .center-half}
-*Credit to Marathon Photos: official image coming soon.*
+![Holding up four fingers to signify four marathons run](images/hamburg-4.jpg){: .center-half}
 
 I was wrecked afterwards, and had to gorge myself on the post-race feast (grapes were the winner of the day) and then go lie down on the floor for a while with another Krombacher 0,0 in hand. My legs cramped up like crazy and I was hobbling around thanks to an ache in my hip/outer glute, but I guess that's to be expected. Overall, it was a well organised race and although I could have done with a few less inclines and also a few less degrees, I enjoyed myself. My experience with German events has been great so far.
 
