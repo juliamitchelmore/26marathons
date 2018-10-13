@@ -16,18 +16,11 @@
       {% endif %}
       {% if post.category == "entered" %}
         <p class="events-item future">
-          <span class="index">{{ forloop.index }}.</span>
+          {% if forloop.index == 24 %}
+          <span class="index">23.2.</span> {% else %}
+          <span class="index">{{ forloop.index | minus:0.8 }}.</span> {% endif %}
           <span class="name">{{ post.name }}</span>
           <span class="detail">{{ post.date | date: "%d.%m.%Y" }}</span>
-        </p>
-      {% endif %}
-      {% if post.category == "wishlist" %}
-        <p class="events-item">
-          {% if forloop.last %}
-          <span class="index">26.2.</span> {% else %}
-          <span class="index">{{ forloop.index }}.</span> {% endif %}
-          <span class="name">{{ post.name }}</span>
-          <span class="detail">(wishlist)</span>
         </p>
       {% endif %}
     {% endfor %}

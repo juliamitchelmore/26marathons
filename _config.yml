@@ -9,11 +9,10 @@
 title: 26 Marathons
 email: julia.mitchelmore@gmail.com
 description: > 
-  Julia's personal challenge to run 26.2 marathons by age 26.2,
-  while raising funds for Trekstock UK and the Australian Heart Foundation
+  Julia's personal challenge to run 26.2 marathons by age 26.2
 baseurl: ""
 url: "http://26marathons.com"
-twitter_username: mitchelmore_j
+twitter_username: jemitchelmore
 github_username:  juliamitchelmore
 
 # Build settings
