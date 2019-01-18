@@ -57,32 +57,10 @@
     }
   }
 
-/*   @include media-query($on-laptop) {
-    // animate the masthead text
-    .typing {
-      width: 0%;
-      overflow: hidden;
-      white-space: nowrap;
-      margin: 0 auto;
-      animation: typing steps(11, end);
-      animation-duration: 1s;
-      animation-delay: 0.8s;
-      animation-fill-mode: forwards;
-    }
-  } */
-
   .tagline {
     text-transform: uppercase;
     font-size: 1.25em;
     text-shadow: 2px 2px rgba(8,71,173,0.5);
-
-    /* @include media-query($on-laptop) {
-      font-size: 1.5em;
-      opacity: 0;
-      animation: fadeIn 1s ease;
-      animation-delay: 3.5s;
-      animation-fill-mode: forwards;
-    } */
   }
 
   // progress bar, with animation
@@ -104,10 +82,6 @@
     .progress-bar-full span {
       right: 5px;
       top: -25px;
-
-      @include media-query($on-laptop) {
-        top: 3px;
-      }
     }
 
     .progress-bar-togo span {
@@ -115,25 +89,16 @@
       animation: slideIn 1s ease;
       animation-fill-mode: backwards;
       animation-delay: 1.5s;
-
-      /* @include media-query($on-laptop) {
-        right: 5px;
-        animation: none;
-      } */
     }
 
     .progress-bar-togo {
-      width: calc(100% * (23 / 26.2));
+      width: calc(100% * (25.2 / 26.2));
       background: #0847ad;
       position: absolute;
       bottom: 0;
       animation: fillIn 1s ease;
       animation-fill-mode: backwards;
       animation-delay: 1s;
-
-      /* @include media-query($on-laptop) {
-        animation-delay: 4.5s;
-      } */
 
       &:after {
         content: "";
@@ -152,10 +117,6 @@
       animation-fill-mode: backwards;
       animation-delay: 2s;
       position: relative;
-
-      /* @include media-query($on-laptop) {
-        animation-delay: 5.5s;
-      } */
     }
   }
 }

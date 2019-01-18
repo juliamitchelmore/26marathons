@@ -8,7 +8,11 @@
       {% if post.category == "completed" %}
         <a href={{ post.url | remove_first: '.html' | prepend: site.github.url }}>
           <p class="events-item past" style="color: {{ post.color }}">
+            {% if forloop.index < 24 %}
             <span class="index">{{ forloop.index }}.</span>
+            {% else %}
+              <span class="index">{{ forloop.index | minus:0.8 }}.</span>
+            {% endif %}
             <span class="name">{{ post.name }}</span>
             <span class="detail">{{ post.time }}</span>
           </p>
@@ -16,9 +20,7 @@
       {% endif %}
       {% if post.category == "entered" %}
         <p class="events-item future">
-          {% if forloop.index == 24 %}
-          <span class="index">23.2.</span> {% else %}
-          <span class="index">{{ forloop.index | minus:0.8 }}.</span> {% endif %}
+          <span class="index">{{ forloop.index | minus:0.8 }}.</span>
           <span class="name">{{ post.name }}</span>
           <span class="detail">{{ post.date | date: "%d.%m.%Y" }}</span>
         </p>
