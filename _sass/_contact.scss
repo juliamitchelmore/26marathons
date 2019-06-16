@@ -84,8 +84,8 @@ $social: facebook instagram twitter email blog;
 
     @each $media in $social {
       &.#{$media} {
-      -webkit-mask-image: url('/images/#{$media}-logo.svg');
-      mask-image: url('/images/#{$media}-logo.svg');
+      -webkit-mask-image: url('../images/#{$media}-logo.svg');
+      mask-image: url('../images/#{$media}-logo.svg');
     }
     }
   }
