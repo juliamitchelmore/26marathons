@@ -22,10 +22,10 @@
 
     <div class="post-pagination">
       {% if page.previous.url and page.previous.category == "completed" %}
-        <a class="post-prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+        <a class="post-prev" href={{page.previous.url | prepend: site.github.url }}>&laquo; {{page.previous.title}}</a>
       {% endif %}
       {% if page.next.url and page.next.category == "completed" %}
-        <a class="post-next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+        <a class="post-next" href={{page.next.url | prepend: site.github.url }}>{{page.next.title}} &raquo;</a>
       {% endif %}
     </div>
 

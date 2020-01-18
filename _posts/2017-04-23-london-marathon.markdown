@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "London Marathon"
+title:  "London Marathon 2017"
 name:   "London"
 date:   2017-04-23
 category: completed
